@@ -8,13 +8,18 @@ An e-commerce web application built with Laravel, React, TypeScript, and Inertia
 - UI components organized into Core and App directories.
 - DaisyUI (v4) and Tailwind CSS configured.
 - Storefront Navbar component implemented and integrated into application layouts and pages.
+- Role-based access control configured with spatie/laravel-permission, RolesEnum, PermissionsEnum, User model (HasRoles), and role/user seeders.
 
 ## Tech Stack
 
-- **Backend:** Laravel
+- **Backend:** Laravel (spatie/laravel-permission)
 - **Frontend:** React, TypeScript, Inertia.js
 - **Styling:** Tailwind CSS, DaisyUI v4
 - **Database:** SQLite
+
+## Documentation
+
+- [Database Documentation](docs/database.md)
 
 ## Local Setup
 
